@@ -10,7 +10,14 @@ import { showNotificacion as show } from './helpers/Helpers';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = [
+    'grybautojas',
+    'šakės',
+    'vištidė',
+    'nevėžis',
+    'kamertonas',
+    'išgrauža',
+];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
