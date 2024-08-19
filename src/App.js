@@ -7,16 +7,17 @@ import Notification from './components/Notification';
 import PopUp from './components/PopUp';
 
 import { showNotificacion as show } from './helpers/Helpers';
+import { keyboard } from '@testing-library/user-event/dist/keyboard';
 
 import './App.css';
 
 const words = [
     'grybautojas',
-    'šakės',
-    'vištidė',
-    'nevėžis',
+    'pirkia',
+    'drobynos',
+    'nenuorama',
     'kamertonas',
-    'išgrauža',
+    'medkirtys',
 ];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
